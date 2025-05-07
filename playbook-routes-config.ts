@@ -2,15 +2,15 @@
 // It exports a flat list of all library routes for use in navigation and linking throughout the site.
 
 
-import { type EachRoute } from "@/types/eachRoute";
+// import { type EachRoute } from "@/types/eachRoute";
 
 
-export const PLAYBOOK_ROUTES: EachRoute[] = [
-    {
-        title: "Introduction",
-        href: "/introduction",
-    }
-];
+// export const PLAYBOOK_ROUTES: EachRoute[] = [
+//     {
+//         title: "Introduction",
+//         href: "/introduction",
+//     }
+// ];
 
 
 // type Page = { title: string; href: string };
@@ -29,4 +29,4 @@ export const PLAYBOOK_ROUTES: EachRoute[] = [
 
 // export const playbook_routes = PLAYBOOK_ROUTES.map((it) => getRecurrsiveAllLinks(it)).flat();
 // TODO: figure out for ethical playbook
-export const playbook_routes = PLAYBOOK_ROUTES.map(({ title, href }) => ({ title, href }));
+// export const playbook_routes = PLAYBOOK_ROUTES.map(({ title, href }) => ({ title, href }));
